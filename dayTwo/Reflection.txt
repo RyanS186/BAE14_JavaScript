@@ -1,0 +1,16 @@
+What did you learn today?
+Everything from today was new to me:
+- Objects, arrays & JSONs
+- Methods
+- Arrow functions
+- Conditionals
+- DOM manipulation
+
+What are you strong with and what are you weak with?
+I'm confident with most of todays content, but need to look at some of the methods and DOM manipulation in more detail.
+
+How can you improve?
+I'll be reviewing the DOM manipulation page on QA community, and trying to put it in to practice
+
+How confident are you out of 10?
+7/10
