@@ -1,0 +1,13 @@
+What did you learn today?
+I've only looked at some basics of JavaScript in the past, so a lot of today was new to me.
+Functions were probably the only area I had 0 experience with.
+
+What are you strong with and what are you weak with?
+Throughout the tasks today, I made use of a lot of loops and if statements, so I'd say I'm pretty strong with those.
+In terms of weaknesses, I think I could use more practice with switch statements, and  learning more about the methods we have available to use in JavaScript.
+
+How can you improve?
+I'm going to read back through QA Community and take down some notes. I'll also be looking in to the FreeCodeCamp courses you recommended today.
+
+How confident are you out of 10?
+7/10
