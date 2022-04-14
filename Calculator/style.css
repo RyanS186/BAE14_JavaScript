@@ -175,3 +175,10 @@ input[type="text"] {
 .calcButtonClear:hover {
     background-color: #703243;
 }
+
+.clearHistory {
+    width: 270px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
