@@ -1,0 +1,15 @@
+What did you learn today?
+Most of today was new to me, I've interacted with APIs before, but not quite to the extend we went through today.
+Promises were also a new concept.
+
+What are you strong with and what are you weak with?
+
+Styling the calculator was probably the strong point of the day, I guess I like CSS haha
+
+Weaknesses, axios and APIs
+
+How can you improve?
+I'm going to work through the Axios Crash Course over the weekend
+
+How confident are you out of 10?
+6/10

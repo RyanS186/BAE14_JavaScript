@@ -16,12 +16,16 @@ function getAllPosts() {
         }
     }).then(res => showOutput(res))
     .catch(err => alert(err));
+
+    console.log('GET Request');
 }
 
 function getPoke() {
     axios.get("https://pokeapi.co/api/v2/pokemon/blaziken")
     .then(res => showOutput(res))
     .catch(err => alert(err));
+
+    console.log('GET Request');
 }
 
   // POST REQUEST  
@@ -41,10 +45,25 @@ function getPoke() {
   
   // PUT/PATCH REQUEST  
   function updateTodo() {
+    axios ({
+      method: "patch",
+      url:"https://jsonplaceholder.typicode.com/posts/5",
+      data: {
+        title:"This is a patch"
+      }
+    }).then(res => showOutput(res))
+    .catch(err => alert(err));
+    
     console.log('PUT/PATCH Request');
   }
   // DELETE REQUEST  
   function removeTodo() {
+    axios ({
+      method: "delete",
+      url:"https://jsonplaceholder.typicode.com/posts/5",
+      }).then(res => showOutput(res))
+      .catch(err => alert(err));
+
     console.log('DELETE Request');
   }
   // SIMULTANEOUS DATA  
