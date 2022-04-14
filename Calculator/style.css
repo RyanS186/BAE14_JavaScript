@@ -14,7 +14,7 @@ body {
     grid-template-columns: 50px 50px 50px 50px;
     grid-template-rows: 50px 50px 50px 50px 50px 50px;
     gap: 10px;
-    background-color: silver;
+    background-color: #C6C4C3;
     width: fit-content;
     padding: 20px;
     border-radius: 5px;
@@ -22,6 +22,8 @@ body {
 
 input[type="text"] {
     background-color: #757567;
+    border-radius: 5px;
+    border-color: #494B4F;
     width: 220px;
     height: 40px;
     text-align: end;
