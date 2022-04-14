@@ -1,0 +1,175 @@
+@font-face {
+    font-family: calcFont;
+    src: url(./font/DSEG14Classic-Regular.ttf);
+}
+
+body {
+    background-color: #202020;
+    color: white;
+    margin-left: 16px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    gap: 10px;
+    background-color: silver;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    background-color: #757567;
+    width: 220px;
+    height: 40px;
+    text-align: end;
+    font-family: calcFont;
+    font-size: 20pt;
+}
+
+.display {
+    font-family: calcFont;
+    font-size: 20pt;
+}
+
+.grid-item1 {
+    
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.grid-item2 {
+    
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.grid-item3 {
+    
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.grid-item4 {
+    
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.grid-item5 {
+    
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.grid-item6 {
+    
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.grid-item7 {
+    
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.grid-item8 {
+    
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.grid-item9 {
+    
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.grid-item0 {
+    
+    grid-column: 1 / 3;
+    grid-row: 6;
+}
+
+.grid-item-dec {
+    
+    grid-column: 3;
+    grid-row: 6;
+}
+
+.grid-item-mul {
+    
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.grid-item-div {
+    
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.grid-item-sum {
+    
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.grid-item-sub {
+    
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.grid-item-cl {
+    
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+
+.grid-item-eq {
+    
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.calcButton {
+    height:50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #202020;
+    color: white;
+    font-size: 25px;
+}
+
+.calcButton:hover {
+    background-color: #303030;
+}
+
+.calcButtonZero {
+    height:50px;
+    width:110px;
+    border-radius: 5px;
+    background-color: #202020;
+    color: white;
+    font-size: 25px;
+}
+.calcButtonZero:hover {
+    background-color: #303030;
+}
+
+.calcButtonClear {
+    height:50px;
+    width:170px;
+    border-radius: 5px;
+    background-color: #602233;
+    color: white;
+    font-size: 25px;
+}
+
+.calcButtonClear:hover {
+    background-color: #703243;
+}

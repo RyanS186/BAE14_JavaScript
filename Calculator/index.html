@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1 style="padding-left: 60px;">Calculator</h1>
+        <form>
+            <div class="grid-container">
+                <div><input type="text" id="result"/></div>
+                <div class="grid-item1"> <!-- <button class="calcButton" id="numberOne" value="1" onclick="display('1')">1</button> --><input type="button" class="calcButton" value="1" onclick="display('1')"/></div>
+                <div class="grid-item2"><input type="button" class="calcButton" value="2" onclick="display('2')"/></div>
+                <div class="grid-item3"><input type="button" class="calcButton" value="3" onclick="display('3')"/></div>
+                <div class="grid-item4"><input type="button" class="calcButton" value="4" onclick="display('4')"/></div>
+                <div class="grid-item5"><input type="button" class="calcButton" value="5" onclick="display('5')"/></div>
+                <div class="grid-item6"><input type="button" class="calcButton" value="6" onclick="display('6')"/></div>
+                <div class="grid-item7"><input type="button" class="calcButton" value="7" onclick="display('7')"/></div>
+                <div class="grid-item8"><input type="button" class="calcButton" value="8" onclick="display('8')"/></div>
+                <div class="grid-item9"><input type="button" class="calcButton" value="9" onclick="display('9')"/></div>
+                <div class="grid-item0"><input type="button" class="calcButtonZero" value="0" onclick="display('0')"/></div>
+                <div class="grid-item-dec"><input type="button" class="calcButton" value="." onclick="display('.')"/></div>
+                <div class="grid-item-mul"><input type="button" class="calcButton" value="*" onclick="display('*')"/></div>
+                <div class="grid-item-div"><input type="button" class="calcButton" value="/" onclick="display('/')"/></div>
+                <div class="grid-item-sum"><input type="button" class="calcButton" value="+" onclick="display('+')"/></div>
+                <div class="grid-item-sub"><input type="button" class="calcButton" value="-" onclick="display('-')"/></div>
+                <div class="grid-item-cl"><input type="button" class="calcButtonClear" value="C" onclick="clr()"/></div>
+                <div class="grid-item-eq"><input type="button" class="calcButton" value="&equals;" onclick="solve()"/></div>
+            </div>
+        </form>
+
+        <h3>History</h3>
+        <ul id="history-el"></ul>
+        
+    </body>
+    <script src="./app.js"></script>
+</html>
