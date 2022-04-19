@@ -3,9 +3,7 @@ Most of today was new to me, I've interacted with APIs before, but not quite to 
 Promises were also a new concept.
 
 What are you strong with and what are you weak with?
-
 Styling the calculator was probably the strong point of the day, I guess I like CSS haha
-
 Weaknesses, axios and APIs
 
 How can you improve?
